@@ -1,0 +1,49 @@
+# === Fichiers système ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
+.nfs*
+
+# === Éditeurs de code ===
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (WebStorm, PhpStorm, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# === Dépôts / build / autres ===
+
+# Node (si jamais tu ajoutes un outil type Tailwind ou build)
+node_modules/
+dist/
+build/
+*.log
+
+# === Fichiers temporaires ===
+*.tmp
+*.swp
+*.bak
+*.sass-cache/
+*.cache/
+
+# === Environnements ===
+.env
+.env.local
+.env.*.local

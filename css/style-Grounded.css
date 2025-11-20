@@ -16,6 +16,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Black Ops One", system-ui;
+    max-width: 100%;
 }
 
 h1, h2 {
@@ -78,6 +79,9 @@ nav a {
     text-decoration: none;
 }
 
-.liens_simples:hover{
-    color: rgba(212, 202, 149);
+nav li:hover{
+    a{
+        color: rgb(214, 250, 100);
+    }
+    border-bottom: solid rgb(157, 203, 10) 7px;
 }

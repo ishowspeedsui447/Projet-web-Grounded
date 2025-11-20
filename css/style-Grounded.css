@@ -24,7 +24,7 @@ h1, h2 {
   color:rgba(212, 200, 154);
 }
 
-h1, h2 {
+h1 {
   display: block;
   background-color: rgb(255, 77, 0);
 }
@@ -36,20 +36,6 @@ p{
 body {
     background: url("../images/background_sunset.png") fixed center;
     background-size: cover;
-}
-
-header{
-
-}
-
-
-
-main {
-    margin: auto;
-    width: 80%;
-    background-color: rgba(18, 6, 57, 0.957);
-    box-shadow: 0 0 30px rgb(0, 0, 0);
-    box-sizing: border-box;
 }
 
 nav {
@@ -74,7 +60,7 @@ nav li{
 nav a {
     width: 100%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(158, 204, 10);
     text-decoration: none;
 }
@@ -84,4 +70,18 @@ nav li:hover{
         color: rgb(214, 250, 100);
     }
     border-bottom: solid rgb(157, 203, 10) 7px;
+}
+
+header{
+
+}
+
+
+
+main {
+    margin: auto;
+    width: 80%;
+    background-color: rgba(18, 6, 57, 0.957);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    box-sizing: border-box;
 }

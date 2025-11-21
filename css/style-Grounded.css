@@ -29,14 +29,11 @@ h1 {
   color:rgba(212, 200, 154);
 }
 
-<<<<<<< HEAD
 h3, h2 {
   display: block;
   color: rgb(254, 99, 32);
-=======
 h2, h3{
     color: rgb(254, 99, 32);
->>>>>>> 8cbe956bf972ff749d48f3b1ae334e5e3fc6fc8f
 }
 
 p {
@@ -51,7 +48,6 @@ body {
     background-size: cover;
 }
 
-<<<<<<< HEAD
 header{
 
 }
@@ -65,8 +61,6 @@ main {
     box-sizing: border-box;
 }
 
-=======
->>>>>>> 8cbe956bf972ff749d48f3b1ae334e5e3fc6fc8f
 nav {
     position : sticky;
     top : 0px;

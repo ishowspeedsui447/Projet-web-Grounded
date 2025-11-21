@@ -29,11 +29,9 @@ h1 {
   color:rgba(212, 200, 154);
 }
 
-h3, h2 {
+h2, h3 {
   display: block;
-  color: rgb(254, 99, 32);
-h2, h3{
-    color: rgb(254, 99, 32);
+  color: rgb(254, 99, 32)
 }
 
 p {

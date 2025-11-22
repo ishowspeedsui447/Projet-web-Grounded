@@ -35,8 +35,7 @@ h1 {
   top: 50px;
 }
 
-h2, h3 {
-  display: block;
+h2, h3, th{
   color: rgb(254, 99, 32)
 }
 

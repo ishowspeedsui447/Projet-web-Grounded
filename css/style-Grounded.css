@@ -35,12 +35,11 @@ h1 {
   top: 50px;
 }
 
-h2, h3 {
-  display: block;
+h2, h3, th{
   color: rgb(254, 99, 32)
 }
 
-p, main a{
+p, main a, td{
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     color:rgba(212, 200, 154);

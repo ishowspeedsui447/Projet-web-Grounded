@@ -1,47 +1,17 @@
-
-.Vincent-map section{
-    display: flex;
-    background-color: (255, 77, 0, 0.5);
-    flex-wrap: wrap;
-    justify-content: space-between;
+.Vincent-map table{
+    border-collapse: collapse;
 }
-
-.Vincent-map section div{
-    display: flow-root;
-
-}
-
-.Vincent-map section>*{
-    margin: 20px;
-}
-
-.Vincent-map p{
-    display: flow-root;
-    max-width: 25%;
-}
-
-.Vincent-map div p:last-of-type{
-    text-align: right;
-}
-
-.Vincent-map section img{
-    width: 20%;
-    
-}
-
-.Vincent-map section img:first-of-type{
-    shape-outside: content-box;
-    float: left;
-}
-
-.Vincent-map section img:last-of-type{
-    shape-outside: content-box;
-    float: right;
-}
-
-
 
 .Vincent-map th{
     text-align: center;
     font-size: 2em;
+    width: 50%;
+}
+
+.Vincent-map td{
+    text-align: justify;
+    width: 20%;
+    padding: 2.5%;
+    border-radius: 3px;
+    border: whitesmoke 3px solid;
 }

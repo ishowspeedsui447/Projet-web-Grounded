@@ -154,5 +154,30 @@ footer{
   color: #d4c89a;
 }
 
+#char-max {
+  background-color: rgb(223, 208, 1);
+  display: flex;
+}
+
+#char-hoops {
+  background-color: rgb(219, 17, 185);
+}
+
+#char-pete {
+  background-color: rgb(111, 163, 51);
+}
+
+#char-willow {
+  background-color: rgb(103, 25, 99);
+}
+
+.abdel_Main>div>aside img {
+  width: 30%;
+}
+
+.abdel_Main>div>aside>div {
+  width: 70%;
+}
+
 /***********Abdel_remerciement*********/
 

@@ -10,3 +10,54 @@
 
 /* Début du code! */
 
+h1,h2{
+    text-align: center;
+}
+
+iframe{
+    display: block;
+}
+.charlemagne_main_pc_po{
+    width: 1200px;
+    margin: auto;
+}
+
+#charlemagne_article_pc{
+    display: flex;
+    gap: 10px;
+}
+
+
+div label{
+    float: left;
+    width: 110px;
+}
+
+div textarea{
+    float: left;
+    width: 250px
+}
+
+#charlemagne_article2_pc{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#charlemagne_envoyer_initialiser_pc{
+    text-align: center;
+}
+
+.charlemagne_outils{
+   display: flex;
+   border: 1px solid gray;
+   border-radius: 5px;
+   margin-top: 5px;
+   width: 50%;
+}
+
+.charlemagne_display_outils{
+    display: flex;
+    gap:10px;
+}

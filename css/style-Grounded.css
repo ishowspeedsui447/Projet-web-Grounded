@@ -290,7 +290,6 @@ max-width: 100px;
   justify-content: space-evenly;
   padding-top: 20px;
   padding-bottom: 20px;
-   ;
 }
 
 .liste_primaire{
@@ -302,6 +301,8 @@ justify-items: center;
 
 .liste_secondaire{
   text-decoration: none;
+  color: rgb(157, 203, 10) ;
+}
 
 /* ********Vincent map ********** */
 

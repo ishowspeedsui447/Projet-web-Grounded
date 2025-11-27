@@ -99,14 +99,10 @@ main {
     box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
-footer{
-
-}
-
 footer div{
     display: flex;
     position: relative;
-    bottom: 50px;
+    top: 50px;
 }
 
 /**********Abdel_personnages********/

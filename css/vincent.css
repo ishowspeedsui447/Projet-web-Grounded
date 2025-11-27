@@ -25,3 +25,7 @@
     border: whitesmoke 2px solid;
     background-color: rgba(138, 25, 80, 0.841);
 }
+
+.Vincent-map aside{
+    display: flex;
+}

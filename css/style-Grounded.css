@@ -179,3 +179,87 @@ footer>p{
 
 /***********Abdel_remerciement*********/
 
+
+/***********Charlemagne*********/
+@charset "UTF-8";
+
+/* La feuille de style est encodée en Unicode UTF-8 */
+
+/* Début du code! */
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+iframe{
+    display: block;
+}
+
+#charlemagne_article_pc{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+div label{
+    float: left;
+    width: 110px;
+}
+
+div textarea{
+    float: left;
+    width: 250px
+}
+
+.charlemagne_main_pc_po{
+padding-top: 30px;
+}
+
+#charlemagne_article2_pc{
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#charlemagne_envoyer_initialiser_pc{
+    text-align: center;
+}
+
+.charlemagne_outils{
+   display: flex;
+   border: 2px solid gray;
+   border-radius: 5px;
+   margin-top: 5px;
+   width: 50%;
+}
+
+.charlemagne_display_outils{
+    display: flex;
+    gap:10px;
+}
+
+a{
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+::placeholder{
+  font-family: "Oswald", sans-serif;
+}
+
+label, legend{
+  color:rgba(212, 200, 154);
+  font-family: "Oswald", sans-serif;
+}
+
+

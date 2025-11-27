@@ -101,10 +101,6 @@ main {
     padding: 8px;
 }
 
-article img {
-    width: 30%;
-}
-
 footer div{
     display: flex;
     position: relative;

@@ -24,31 +24,44 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
-h1 {
+header h1 {
   display: block;
-  background-color: rgba(255, 77, 0, 0.77);
+  background-color: rgba(215, 66, 2, 0.918);
+  border-radius: 10px;
+  border: solid;
   color:rgba(212, 200, 154);
-  height: 100px;
-  width: 500px;
-  font-size: 3em;
+  height: 36px;
+  width: 280px;
+  font-size: 1.5em;
   position: absolute;
-  top: 50px;
+  top: 90px;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
-h2, h3 {
-  display: block;
-  color: rgb(254, 99, 32)
+header>img {
+  right: 100px;
+  top: 20px;
+  width:7em;
+  font-size: 1.5em;
+  position: absolute;
+  top: 130px;
 }
 
-p, main a{
+h2, h3, th{
+  color: rgb(254, 99, 32);
+}
+
+p, main a, td{
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     color:rgba(212, 200, 154);
+    text-align: justify;
 }
 
 body {
     background: url("../images/background_sunset.png") fixed center;
     background-size: cover;
+    width: 100%;
 }
 
 nav {
@@ -74,7 +87,7 @@ nav li{
 nav a {
     width: 100%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgb(158, 204, 10);
     text-decoration: none;
 }
@@ -86,10 +99,6 @@ nav li:hover{
     border-bottom: solid rgb(157, 203, 10) 7px;
 }
 
-header{
-    
-}
-
 main {
     margin: auto;
     width: 80%;
@@ -97,6 +106,78 @@ main {
     box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
+.main_padding {
+    padding: 8px;
+}
+
+article img {
+    width: 30%;
+}
+
 footer{
     
 }
+
+/**********Abdel_personnages********/
+
+
+.Abdel_characters-list {
+  padding: 2% 0.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.Abdel_character {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.Abdel_char-icon img {
+  width: 2em; 
+  height: 2em;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  border: 2px solid rgba(215,66,2,0.9);
+  transition: transform 0.2s;
+}
+.Abdel_char-icon:hover img {
+  transform: translateX(-2px) scale(1.02);
+  box-shadow: -4px 4px 7px rgba(215,66,2,0.25);
+}
+
+.Abdel_char-name {
+  font-size: 140%;
+  margin: 0;
+  color: #d4c89a;
+}
+
+#char-max {
+  background-color: rgb(30, 5, 2);
+  display: flex;
+}
+
+#char-hoops {
+  background-color: rgb(52, 129, 38);
+}
+
+#char-pete {
+  background-color: rgb(111, 163, 51);
+}
+
+#char-willow {
+  background-color: rgb(103, 25, 99);
+}
+
+.abdel_Main>div>aside img {
+  width: 30%;
+}
+
+.abdel_Main>div>aside>div {
+  width: 70%;
+}
+
+/***********Abdel_remerciement*********/
+

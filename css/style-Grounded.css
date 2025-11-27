@@ -269,8 +269,14 @@ div textarea{
 }
 
 .Charlemagne_part section h4{
-  color: rgb(45, 33, 2);
+  color: maroon;
 }
+
+.Charlemagne_part section img{
+max-width: 100px;
+}
+
+
 
 /* ********Vincent map ********** */
 

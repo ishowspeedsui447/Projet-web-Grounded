@@ -170,33 +170,38 @@ footer div{
 
 
 /***********Charlemagne*********/
-@charset "UTF-8";
-
-/* La feuille de style est encodée en Unicode UTF-8 */
 
 /* Début du code! */
 
-h2{
+.Charlemagne_part main{
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.Charlemagne_part h2{
     text-align: center;
 }
 
-h3{
+.Charlemagne_part h3{
     text-align: center;
     text-decoration: underline;
 }
 
-p {
+.Charlemagne_part p {
   text-align: justify;
 }
 
-iframe{
+.Charlemagne_part iframe{
     display: block;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
 
 #charlemagne_article_pc{
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 div label{
@@ -206,18 +211,15 @@ div label{
 
 div textarea{
     float: left;
-    width: 250px
+    width: 210px
 }
 
-.charlemagne_main_pc_po{
-padding-top: 30px;
-}
-
-#charlemagne_article2_pc{
+.charlemagne_article1_2_pc{
     border: 2px solid grey;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 5px;
 }
 
 #charlemagne_envoyer_initialiser_pc{
@@ -237,8 +239,7 @@ padding-top: 30px;
     gap:10px;
 }
 
-a{
-  text-decoration: none;
+.Charlemagne_part a{
   padding-right: 20px;
 }
 
@@ -246,9 +247,16 @@ a{
   font-family: "Oswald", sans-serif;
 }
 
-label, legend{
+.Charlemagne_part label, legend{
   color:rgba(212, 200, 154);
   font-family: "Oswald", sans-serif;
+  padding: 5px;
 }
+
+.Charlemagne_part footer img{
+  padding-bottom: 0%;
+}
+
+
 
 

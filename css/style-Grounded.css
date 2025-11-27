@@ -116,7 +116,7 @@ article img {
 
 footer div{
     display: flex;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 0px;
 }

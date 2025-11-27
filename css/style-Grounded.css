@@ -114,8 +114,11 @@ article img {
     width: 30%;
 }
 
-footer{
-    
+footer div{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 /**********Abdel_personnages********/

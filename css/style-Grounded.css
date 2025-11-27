@@ -56,6 +56,7 @@ p, main a, td{
     font-weight: 300;
     color:rgba(212, 200, 154);
     text-align: justify;
+
 }
 
 body {
@@ -155,7 +156,7 @@ footer{
 }
 
 #char-max {
-  background-color: rgb(30, 5, 2);
+  background-color: rgb(143, 116, 86);
   display: flex;
 }
 

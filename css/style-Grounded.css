@@ -2,7 +2,7 @@
 
 /**********************************************************************/
 /* Fichier ...................... : style-Grounded.css
-/* Type ......................... : Document CSS
+/* Type ......................... : Document CSS  
 /* Titre ........................ : Positionnement avec display
 /* Auteurs ....................... : Abdel Kader Mbouombouo Kenfack, Kian Larivière, Wologbo Charlemagne Dobe, Naïla Alvarez, Vincent Gagnon 
 /* Date de création ............. : 2025-11-08
@@ -17,6 +17,7 @@
     padding: 0px;
     font-family: "Black Ops One", system-ui;
     max-width: 100%;
+    max-height: 100%;
     box-sizing: border-box;
 }
 
@@ -38,28 +39,20 @@ header h1 {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
-header>img {
-  right: 100px;
-  top: 20px;
-  width:7em;
-  font-size: 1.5em;
-  position: absolute;
-  top: 130px;
-}
-
 h2, h3, th{
   color: rgb(254, 99, 32);
 }
 
-p, main a, td{
+p, main a, td, label{
     font-family: "Oswald", sans-serif;
     font-weight: 300;
     color:rgba(212, 200, 154);
     text-align: justify;
+
 }
 
 body {
-    background: url("../images/background_sunset.png") fixed center;
+    background: url("../images/background.png") fixed center;
     background-size: cover;
     width: 100%;
 }
@@ -110,12 +103,10 @@ main {
     padding: 8px;
 }
 
-article img {
-    width: 30%;
-}
-
-footer{
-    
+footer div{
+    display: flex;
+    position: relative;
+    bottom: 100px;
 }
 
 /**********Abdel_personnages********/
@@ -155,7 +146,7 @@ footer{
 }
 
 #char-max {
-  background-color: rgb(30, 5, 2);
+  background-color: rgb(143, 116, 86);
   display: flex;
 }
 

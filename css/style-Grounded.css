@@ -59,7 +59,7 @@ p, main a, td{
 }
 
 body {
-    background: url("../images/background_sunset.png") fixed center;
+    background: url("../images/background.png") fixed center;
     background-size: cover;
     width: 100%;
 }

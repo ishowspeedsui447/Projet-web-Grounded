@@ -308,7 +308,7 @@ justify-items: center;
 /* ********Vincent map ********** */
 
 .Vincent-map table img{
-    border: whitesmoke solid 3px;
+    border: rgb(255, 255, 175, 0.6) solid 3px;
 }
 
 .Vincent-map th{
@@ -316,7 +316,7 @@ justify-items: center;
     font-size: 2em;
     width: 50%;
     border-radius: 15px;
-    border: whitesmoke 3px solid;
+    border: rgb(255, 255, 175, 0.6) 3px solid;
     padding: 2.5% 0%;
 }
 
@@ -331,7 +331,7 @@ justify-items: center;
     width: 25%;
     padding: 2.5%;
     border-radius: 25px;
-    border: whitesmoke 2px solid;
+    border: rgb(255, 255, 175, 0.6) 2px solid;
     background-color: rgba(138, 25, 80, 0.841);
 }
 

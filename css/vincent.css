@@ -1,0 +1,14 @@
+main>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+section:first-of-type{
+    width: 70%;
+}
+
+aside{
+    width: 20%;
+    margin-right: 30px;
+    border: solid 3px rgb(255, 255, 175, 0.6);
+}

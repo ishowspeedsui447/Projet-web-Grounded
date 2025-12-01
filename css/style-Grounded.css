@@ -307,6 +307,10 @@ justify-items: center;
 
 /* ********Vincent map ********** */
 
+.Vincent-map table{
+  margin: 0px 10px;
+}
+
 .Vincent-map table img{
     border: rgb(255, 255, 175, 0.6) solid 3px;
 }

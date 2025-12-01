@@ -12,3 +12,7 @@ aside{
     margin-right: 30px;
     border: solid 3px rgb(255, 255, 175, 0.6);
 }
+
+aside>*{
+    border: solid 3px rgb(255, 255, 175, 0.6);
+}

@@ -35,7 +35,8 @@ header h1 {
   width: 280px;
   font-size: 1.5em;
   position: absolute;
-  top: 90px;
+  top: 175px;
+  left:250px;
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
@@ -306,8 +307,12 @@ justify-items: center;
 
 /* ********Vincent map ********** */
 
+.Vincent-map table{
+  margin: 0px 10px;
+}
+
 .Vincent-map table img{
-    border: whitesmoke solid 3px;
+    border: rgb(255, 255, 175, 0.6) solid 3px;
 }
 
 .Vincent-map th{
@@ -315,7 +320,7 @@ justify-items: center;
     font-size: 2em;
     width: 50%;
     border-radius: 15px;
-    border: whitesmoke 3px solid;
+    border: rgb(255, 255, 175, 0.6) 3px solid;
     padding: 2.5% 0%;
 }
 
@@ -330,10 +335,98 @@ justify-items: center;
     width: 25%;
     padding: 2.5%;
     border-radius: 25px;
-    border: whitesmoke 2px solid;
+    border: rgb(255, 255, 175, 0.6) 2px solid;
     background-color: rgba(138, 25, 80, 0.841);
 }
 
 .Vincent-map aside{
     display: flex;
+}
+
+/* Kian_histoire*/
+
+.Kian-story h1 {
+  font-size: 2.2em;
+}
+
+.Kian-story h2 {
+  font-size: 1.8em;
+}
+
+.Kian-story h3 {
+  font-size: 1.5em;
+}
+
+.Kian-story main {
+  padding-bottom: 1em;
+  border-radius: 6px;
+}
+
+.Kian-story section {
+  padding: 2% 1%;
+}
+
+.Kian-story article {
+    margin-bottom: 15px;
+    padding: 1.5% ;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid rgba(215, 66, 2, 0.9);
+    border-radius: 6px;
+}
+
+.Kian-story h2 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.Kian-story h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.Kian-story p {
+    line-height: 1.6em;
+    margin-bottom: 8px;
+}
+
+.Kian-story ul {
+    margin-left: 15px;
+}
+
+.Kian-story ul li {
+    margin-bottom: 8px;
+}
+
+.Kian-story header section {
+    padding-bottom: 4% ;
+    text-align: center;
+}
+
+.Kian-story header p {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 1.2em;
+}
+
+.Kian-story header img:first-child {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+.Kian-story header img:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 160px;
+}
+
+.Kian-story footer {
+    padding: 3% ;
+    margin-top: 30px;
+}
+
+.Kian-story footer h2 {
+    font-size: 3em;
+    text-align: center;
 }

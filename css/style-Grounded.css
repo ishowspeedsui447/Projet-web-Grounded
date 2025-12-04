@@ -151,10 +151,23 @@ footer>p{
   margin: 0;
   color: #d4c89a;
 }
+/*minitable personnelle*/
+#char-max>div>div {
+  display:flex;
+  padding-top: 2px;
+}
+
+#char-max>div>div p {
+  border-bottom: 2px solid #d4c89a;
+  padding-right: 30px;
+}
 
 #char-max {
   background-color: rgb(143, 116, 86);
   display: flex;
+  border: 4px solid rgb(215,66,2,0.9);
+  border-radius: 10px;
+  margin: 5px 0 5px 0;
 }
 
 #char-hoops {

@@ -1,9 +1,11 @@
-main>div{
+main>div, div:not(div:first-of-type) section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-section:first-of-type{
+div:first-of-type section:first-of-type{
     width: 70%;
 }
 
@@ -15,4 +17,22 @@ aside{
 
 aside>*{
     border: solid 3px rgb(255, 255, 175, 0.6);
+}
+
+div:first-of-type section{
+    margin: 0px 30px;
+}
+
+section img{
+    max-width: 40%;
+}
+
+h2, h3{
+    width: 80vw;
+    text-align: center;
+    font-size: 2em;
+}
+
+div:not(div:first-of-type) p{
+    max-width: 50%;
 }

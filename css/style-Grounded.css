@@ -376,18 +376,19 @@ justify-items: center;
 }
 
 .Kian-story h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 5px;
 }
 
 .Kian-story h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 5px;
 }
 
-.Kian-story p {
+.Kian-story main p {
     line-height: 1.6em;
     margin-bottom: 8px;
+    font-size: 2em;
 }
 
 .Kian-story ul {
@@ -406,7 +407,7 @@ justify-items: center;
 .Kian-story header p {
     width: 70%;
     margin: 10px auto;
-    font-size: 1.2em;
+    font-size: 1.9em;
 }
 
 .Kian-story header img:first-child {
@@ -420,14 +421,4 @@ justify-items: center;
     top: 15px;
     left: 15px;
     width: 160px;
-}
-
-.Kian-story footer {
-    padding: 3% ;
-    margin-top: 30px;
-}
-
-.Kian-story footer h2 {
-    font-size: 3em;
-    text-align: center;
 }

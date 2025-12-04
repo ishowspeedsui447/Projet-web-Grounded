@@ -305,6 +305,10 @@ justify-items: center;
   color: rgb(157, 203, 10) ;
 }
 
+.Charlemagne_part footer p{
+  float: left;
+}
+
 /* ********Vincent map ********** */
 
 .Vincent-map table{

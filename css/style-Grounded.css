@@ -26,16 +26,18 @@ h1, h2, h3 {
 }
 
 header h1 {
+  text-align: center;
   display: block;
   background-color: rgba(215, 66, 2, 0.918);
-  border-radius: 10px;
+  border-radius: 10px 0px;
   border: solid;
   color:rgba(212, 200, 154);
-  height: 36px;
-  width: 280px;
+  height: 5%;
+  width: 20%;
   font-size: 1.5em;
   position: absolute;
-  top: 90px;
+  top: 20%;
+  left:20%;
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
@@ -317,10 +319,18 @@ justify-items: center;
   color: rgb(157, 203, 10) ;
 }
 
+.Charlemagne_part footer p{
+  float: left;
+}
+
 /* ********Vincent map ********** */
 
+.Vincent-map table{
+  margin: 0px 10px;
+}
+
 .Vincent-map table img{
-    border: whitesmoke solid 3px;
+    border: rgb(255, 255, 175, 0.6) solid 3px;
 }
 
 .Vincent-map th{
@@ -328,7 +338,7 @@ justify-items: center;
     font-size: 2em;
     width: 50%;
     border-radius: 15px;
-    border: whitesmoke 3px solid;
+    border: rgb(255, 255, 175, 0.6) 3px solid;
     padding: 2.5% 0%;
 }
 
@@ -343,7 +353,7 @@ justify-items: center;
     width: 25%;
     padding: 2.5%;
     border-radius: 25px;
-    border: whitesmoke 2px solid;
+    border: rgb(255, 255, 175, 0.6) 2px solid;
     background-color: rgba(138, 25, 80, 0.841);
 }
 
@@ -353,9 +363,6 @@ justify-items: center;
 
 /* Kian_histoire*/
 
-.Kian-story h1 {
-  font-size: 2.2em;
-}
 
 .Kian-story h2 {
   font-size: 1.8em;
@@ -383,18 +390,19 @@ justify-items: center;
 }
 
 .Kian-story h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 5px;
 }
 
 .Kian-story h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 5px;
 }
 
-.Kian-story p {
+.Kian-story main p {
     line-height: 1.6em;
     margin-bottom: 8px;
+    font-size: 2em;
 }
 
 .Kian-story ul {
@@ -413,7 +421,7 @@ justify-items: center;
 .Kian-story header p {
     width: 70%;
     margin: 10px auto;
-    font-size: 1.2em;
+    font-size: 1.9em;
 }
 
 .Kian-story header img:first-child {
@@ -427,14 +435,4 @@ justify-items: center;
     top: 15px;
     left: 15px;
     width: 160px;
-}
-
-.Kian-story footer {
-    padding: 3% ;
-    margin-top: 30px;
-}
-
-.Kian-story footer h2 {
-    font-size: 3em;
-    text-align: center;
 }

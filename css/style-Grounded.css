@@ -50,7 +50,6 @@ p, main a, td, label, li{
     font-weight: 300;
     color:rgba(212, 200, 154);
     text-align: justify;
-
 }
 
 body {
@@ -102,7 +101,7 @@ main {
 }
 
 footer{
-  max-height: 380px;
+  max-height: 250px;
 }
 
 footer div{

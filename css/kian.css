@@ -1,0 +1,82 @@
+.Kian-story h2 {
+  font-size: 1.8em;
+}
+
+.Kian-story h3 {
+  font-size: 1.5em;
+}
+
+.Kian-story main {
+  padding-bottom: 1em;
+  border-radius: 6px;
+}
+
+.Kian-story section {
+  padding: 2% 1%;
+}
+
+.Kian-story article {
+    margin-bottom: 15px;
+    padding: 1.5% ;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid rgba(215, 66, 2, 0.9);
+    border-radius: 6px;
+}
+
+.Kian-story h2 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.Kian-story h3 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.Kian-story main p {
+    line-height: 1.6em;
+    margin-bottom: 8px;
+    font-size: 1.6em;
+}
+
+.Kian-story ol {
+    margin-left: 15px;
+}
+
+.Kian-story ol li {
+    margin-bottom: 8px;
+    font-size: 1.6em;
+}
+
+.Kian-story header section {
+    padding-bottom: 4% ;
+    text-align: center;
+}
+
+.Kian-story header p {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 1.9em;
+}
+
+.Kian-story header img:first-child {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+.Kian-story header img:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 160px;
+}
+
+.Kian-story footer p {
+  font-size: 1em;
+}
+
+.history{
+    justify-content: center;
+    text-align: center;
+}

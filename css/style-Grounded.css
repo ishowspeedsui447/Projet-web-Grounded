@@ -156,7 +156,7 @@ footer>p{
 /*minitable personnelle*/
 #char-max>div>div {
   display:flex;
-  padding-top: 2px;
+  padding-top: 10px;
 }
 
 #char-max>div>div p {

@@ -1,30 +1,30 @@
 main>div, div:not(div:first-of-type) section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin: 5px 0px;
 }
 
-div:first-of-type section:first-of-type{
+div:first-of-type section{
     width: 70%;
+    margin: 0px 30px;
 }
 
 aside{
     width: 20%;
     margin-right: 30px;
-    border: solid 3px rgb(255, 255, 175, 0.6);
 }
 
 aside>*{
-    border: solid 3px rgb(255, 255, 175, 0.6);
-}
-
-div:first-of-type section{
-    margin: 0px 30px;
+    border: solid 3px rgb(214, 250, 100);
+    padding: 5px;
 }
 
 section img{
     max-width: 40%;
+    min-width: 15%;
+    margin: 0px 20px;
 }
 
 h2, h3{
@@ -35,4 +35,5 @@ h2, h3{
 
 div:not(div:first-of-type) p{
     max-width: 50%;
+    margin: 0px 20px;
 }

@@ -79,6 +79,7 @@ nav li{
 }
 
 nav a {
+  display: inline-block;
     width: 100%;
     text-align: center;
     font-size: 1em;
@@ -101,7 +102,7 @@ main {
 }
 
 footer{
-  max-height: 250px;
+  max-height: 250px;  /* dimension volontairement trop petite pour contenir le footer -> sert a enlever un espace qui apparaitrait entre le footer et la fin de la page */
 }
 
 footer div{
@@ -155,7 +156,7 @@ footer>p{
 /*minitable personnelle*/
 #char-max>div>div {
   display:flex;
-  padding-top: 2px;
+  padding-top: 10px;
 }
 
 #char-max>div>div p {

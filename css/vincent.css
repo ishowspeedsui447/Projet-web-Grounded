@@ -1,4 +1,4 @@
-main>div, div:not(div:first-of-type) section{
+.Vincent-index main>div, div:not(div:first-of-type) section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -6,34 +6,39 @@ main>div, div:not(div:first-of-type) section{
     margin: 5px 0px;
 }
 
-div:first-of-type section{
+.Vincent-index div:first-of-type section{
     width: 70%;
     margin: 0px 30px;
 }
 
-aside{
+.Vincent-index aside{
     width: 20%;
     margin-right: 30px;
 }
 
-aside>*{
+.Vincent-index aside>*{
     border: solid 3px rgb(214, 250, 100);
     padding: 5px;
 }
 
-section img{
+.Vincent-index section img{
     max-width: 40%;
     min-width: 15%;
     margin: 0px 20px;
 }
 
-h2, h3{
+.Vincent-index h2, h3{
     width: 80vw;
     text-align: center;
     font-size: 2em;
 }
 
-div:not(div:first-of-type) p{
+.Vincent-index div:not(div:first-of-type) p{
     max-width: 50%;
     margin: 0px 20px;
+}
+
+.Vincent-index video{
+    margin: auto;
+    margin-top: 10px;
 }

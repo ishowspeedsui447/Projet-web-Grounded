@@ -358,6 +358,53 @@ justify-items: center;
     background-color: rgba(138, 25, 80, 0.841);
 }
 
+/* Vincent accueil */
+
+.Vincent-index main>div, div:not(div:first-of-type) section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.Vincent-index div:first-of-type section{
+    width: 70%;
+    margin: 0px 30px;
+}
+
+.Vincent-index aside{
+    width: 20%;
+    margin-right: 30px;
+}
+
+.Vincent-index aside>*{
+    border: solid 3px rgb(214, 250, 100);
+    padding: 5px;
+}
+
+.Vincent-index section img{
+    max-width: 40%;
+    min-width: 15%;
+    margin: 0px 20px;
+}
+
+.Vincent-index h2, h3{
+    width: 80vw;
+    text-align: center;
+    font-size: 2em;
+}
+
+.Vincent-index div:not(div:first-of-type) p{
+    max-width: 50%;
+    margin: 0px 20px;
+}
+
+.Vincent-index video{
+    margin: auto;
+    margin-top: 10px;
+}
+
 /* Kian_histoire*/
 
 

@@ -119,8 +119,10 @@ footer>p{
 }
 
 /**********Abdel_personnages********/
-
-
+.abdel_Main section h3,h2 {
+  text-align: left;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.811);
+}
 .Abdel_characters-list {
   padding: 2% 0.5%;
   display: flex;
@@ -154,6 +156,9 @@ footer>p{
   color: #d4c89a;
 }
 /*minitable personnelle*/
+#char-max>div {
+  padding-top: 2%;
+}
 #char-max>div>div {
   display:flex;
   padding-top: 10px;

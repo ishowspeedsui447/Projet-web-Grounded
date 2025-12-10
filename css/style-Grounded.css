@@ -199,11 +199,6 @@ footer>p{
 
 /* Début du code! */
 
-.Charlemagne_part main{
-padding-top: 30px;
-padding-bottom: 50px;
-}
-
 .Charlemagne_part h2{
     text-align: center;
 }
@@ -255,11 +250,11 @@ div textarea{
 
 .charlemagne_outils{
    display: flex;
-   border: 5px solid gray;
+   border: 5px solid rgb(175, 70, 41);
    border-radius: 5px;
    margin-top: 5px;
    width: 50%;
-   background-color: rgb(185, 183, 183);
+   background-color: rgb(150, 100, 86);
    margin-bottom: 10px;
    padding: 10px;
   
@@ -271,10 +266,6 @@ color: black;
 .charlemagne_display_outils{
     display: flex;
     gap:10px;
-}
-
-.Charlemagne_part a{
-  padding-right: 20px;
 }
 
 ::placeholder{
@@ -317,10 +308,6 @@ justify-items: center;
 .liste_secondaire{
   text-decoration: none;
   color: rgb(157, 203, 10) ;
-}
-
-.Charlemagne_part footer p{
-  float: left;
 }
 
 /* ********Vincent map ********** */

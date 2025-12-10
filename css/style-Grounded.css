@@ -92,7 +92,6 @@ nav li:hover{
         color: rgb(214, 250, 100);
     }
     border-bottom: solid rgb(157, 203, 10) 7px;
-    max-height: 5%;
 }
 
 main {

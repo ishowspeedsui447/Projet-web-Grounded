@@ -61,7 +61,7 @@ body {
 nav {
     position : sticky;
     top : 0px;
-    z-index: 10;
+    z-index: 10; /* N'importe quoi de plus haut que 0 */
     background-color: rgba(30, 5, 2);
 }
 
@@ -75,10 +75,11 @@ nav li{
     width: 12.5%;
     border-bottom: solid rgb(52, 129, 38) 5px; 
     text-align: center;   
-    height: 30px;
+    height: 5%;
 }
 
 nav a {
+  display: inline-block;
     width: 100%;
     text-align: center;
     font-size: 1em;
@@ -101,7 +102,7 @@ main {
 }
 
 footer{
-  max-height: 250px;
+  max-height: 250px;  /* dimension volontairement trop petite pour contenir le footer -> sert a enlever un espace qui apparaitrait entre le footer et la fin de la page */
 }
 
 footer div{
@@ -155,7 +156,7 @@ footer>p{
 /*minitable personnelle*/
 #char-max>div>div {
   display:flex;
-  padding-top: 2px;
+  padding-top: 10px;
 }
 
 #char-max>div>div p {
@@ -356,8 +357,51 @@ justify-items: center;
     background-color: rgba(138, 25, 80, 0.841);
 }
 
-.Vincent-map aside{
+/* Vincent accueil */
+
+.Vincent-index main>div, div:not(div:first-of-type) section{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.Vincent-index div:first-of-type section{
+    width: 70%;
+    margin: 0px 30px;
+}
+
+.Vincent-index aside{
+    width: 20%;
+    margin-right: 30px;
+}
+
+.Vincent-index aside>*{
+    border: solid 3px rgb(214, 250, 100);
+    padding: 5px;
+}
+
+.Vincent-index section img{
+    max-width: 40%;
+    min-width: 15%;
+    margin: 0px 20px;
+}
+
+.Vincent-index h2, h3{
+    width: 80vw;
+    text-align: center;
+    font-size: 2em;
+}
+
+.Vincent-index div:not(div:first-of-type) p{
+    max-width: 50%;
+    margin: 0px 20px;
+}
+
+.Vincent-index video{
+    margin: auto;
+    margin-top: 10px;
 }
 
 /* Kian_histoire*/
@@ -394,7 +438,7 @@ justify-items: center;
 }
 
 .Kian-story h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 5px;
 }
 
@@ -440,3 +484,10 @@ justify-items: center;
   font-size: 1em;
 }
 
+/* hommage a Naila qui nous a quitte */
+
+
+.hommage main>p{
+  font-size: 3em;
+  padding: 30px;
+}

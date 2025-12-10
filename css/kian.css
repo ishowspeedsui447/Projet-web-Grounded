@@ -36,15 +36,16 @@
 .Kian-story main p {
     line-height: 1.6em;
     margin-bottom: 8px;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
-.Kian-story ul {
+.Kian-story ol {
     margin-left: 15px;
 }
 
-.Kian-story ul li {
+.Kian-story ol li {
     margin-bottom: 8px;
+    font-size: 1.6em;
 }
 
 .Kian-story header section {
@@ -73,4 +74,79 @@
 
 .Kian-story footer p {
   font-size: 1em;
+}
+
+.history{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.kian-createurs main {
+  padding: 2rem;
+}
+
+
+.kian-createurs main > header > section {
+  display: block;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.kian-createurs main > header img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+
+.kian-createurs main p {
+  text-align: left;
+}
+
+
+.kian-createurs main > section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+
+.kian-createurs main > section h2 {
+  flex: 1;
+  font-size: 2rem;
+}
+
+
+.kian-createurs main > section p {
+  flex: 2;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+.kian-createurs main > section img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+
+.kian-createurs main > section.sectionGauche {
+    flex-direction: row;
+    text-align: left;
+}
+
+.kian-createurs main > section.sectionDroite {
+    flex-direction: row-reverse;
+    text-align: right;
 }

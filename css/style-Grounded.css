@@ -484,3 +484,10 @@ justify-items: center;
   font-size: 1em;
 }
 
+/* hommage a Naila qui nous a quitte */
+
+
+.hommage main>p{
+  font-size: 3em;
+  padding: 30px;
+}

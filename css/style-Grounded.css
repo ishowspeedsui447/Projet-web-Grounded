@@ -106,7 +106,6 @@ footer{
 }
 
 footer div{
-    display: flex;
     position: relative;
     bottom: 30px;
     left: 10px;
@@ -432,6 +431,9 @@ justify-items: center;
     line-height: 110%;
     margin-bottom: 8px;
 }
+.Kian-story main>p{
+  margin: 0px 20px;
+}
 
 .Kian-story ul {
     margin-left: 15px;
@@ -506,6 +508,7 @@ justify-items: center;
   display: block;
 }
 
+<<<<<<< HEAD
 
 .sectionGauche {
     flex-direction: row;
@@ -521,6 +524,8 @@ justify-items: center;
 
 
 
+=======
+>>>>>>> bdb698521b6cbd1907daca863047c55a4023f819
 /* hommage a Naila qui nous a quitte */
 
 

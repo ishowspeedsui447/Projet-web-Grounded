@@ -425,6 +425,7 @@ justify-items: center;
 .Kian-story h3 {
     font-size: 1.6em;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .Kian-story main p {

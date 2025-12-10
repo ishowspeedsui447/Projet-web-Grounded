@@ -453,13 +453,11 @@ justify-items: center;
     margin: 10px auto;
 }
 
-.Kian-story header img:first-child {
+.Kian-story header img:first-child {    /* Première image du header (image de fond/bannière) */
     width: 100%;
-    object-fit: cover;
-    filter: brightness(0.9);
 }
 
-.Kian-story header img:nth-child(2) {
+.Kian-story header img:nth-child(2) {   /* Deuxième image du header (logo/portrait par-dessus) */
     position: absolute;
     top: 15px;
     left: 15px;

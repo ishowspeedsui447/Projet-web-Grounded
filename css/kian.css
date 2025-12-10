@@ -87,9 +87,6 @@
 
 
 
-.kian-createurs main {
-  padding: 2rem;
-}
 
 
 .kian-createurs main > header > section {
@@ -103,13 +100,12 @@
   height: auto;
   border-radius: 10px;
   margin-bottom: 1rem;
-}
+} 
 
 
-.kian-createurs main p {
+.kian-createurs main p {           
   text-align: left;
-}
-
+} 
 
 .kian-createurs main > section {
   display: flex;
@@ -141,12 +137,13 @@
 }
 
 
-.kian-createurs main > section.sectionGauche {
+.sectionGauche {
     flex-direction: row;
     text-align: left;
 }
 
-.kian-createurs main > section.sectionDroite {
+.sectionDroite {
     flex-direction: row-reverse;
     text-align: right;
 }
+

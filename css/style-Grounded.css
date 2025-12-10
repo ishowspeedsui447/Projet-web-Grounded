@@ -106,7 +106,6 @@ footer{
 }
 
 footer div{
-    display: flex;
     position: relative;
     bottom: 30px;
     left: 10px;
@@ -431,6 +430,9 @@ justify-items: center;
 .Kian-story main p {
     line-height: 110%;
     margin-bottom: 8px;
+}
+.Kian-story main>p{
+  margin: 0px 20px;
 }
 
 .Kian-story ul {

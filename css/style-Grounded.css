@@ -507,6 +507,18 @@ justify-items: center;
 }
 
 
+.sectionGauche {
+    flex-direction: row;
+    text-align: left;
+}
+
+.sectionDroite {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+
 
 
 /* hommage a Naila qui nous a quitte */

@@ -165,18 +165,10 @@ footer>p{
 }
 
 /*minitable personnelle*/
-<<<<<<< HEAD
 #char-max>div {
   padding-top: 2%;
 }
 #char-max>div>div {
-=======
-.main_padding>aside>div {
-  padding-top: 1%;
-  padding-right: 5px;
-}
-.main_padding>aside>div>div {
->>>>>>> 8a7bf6e0f16fe34c194e0dab32d0e0ac700e3b91
   display:flex;
   padding-top: 10px;
 }

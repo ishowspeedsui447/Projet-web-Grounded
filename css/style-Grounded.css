@@ -154,7 +154,6 @@ footer>p{
   margin: 0;
   color: #d4c89a;
 }
-<<<<<<< HEAD
 
 .main_padding > article{
   padding: 10px 20px 10px 30px;
@@ -170,10 +169,6 @@ footer>p{
   padding-right: 5px;
 }
 .main_padding>aside>div>div {
-=======
-/*minitable personnelle*/
-#char-max>div>div {
->>>>>>> d317d63216124a017f153ec6e8a71437ebb25a14
   display:flex;
   padding-top: 10px;
 }

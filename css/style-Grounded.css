@@ -119,10 +119,8 @@ footer>p{
 }
 
 /**********Abdel_personnages********/
-.abdel_Main section h3,h2 {
-  text-align: left;
-  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.811);
-}
+
+
 .Abdel_characters-list {
   padding: 2% 0.5%;
   display: flex;
@@ -156,6 +154,7 @@ footer>p{
   margin: 0;
   color: #d4c89a;
 }
+<<<<<<< HEAD
 
 .main_padding > article{
   padding: 10px 20px 10px 30px;
@@ -171,6 +170,10 @@ footer>p{
   padding-right: 5px;
 }
 .main_padding>aside>div>div {
+=======
+/*minitable personnelle*/
+#char-max>div>div {
+>>>>>>> d317d63216124a017f153ec6e8a71437ebb25a14
   display:flex;
   padding-top: 10px;
 }
@@ -346,6 +349,10 @@ color: black;
 .charlemagne_display_outils{
     display: flex;
     gap:10px;
+}
+
+.Charlemagne_part main>p, .Charlemagne_part main section>div>p{
+  margin: 0px 20px;
 }
 
 ::placeholder{
@@ -534,6 +541,7 @@ justify-items: center;
     font-size: 1.9em;
 }
 
+<<<<<<< HEAD
 .Kian-story header img:first-child {
     width: 100%;
     object-fit: cover;
@@ -547,12 +555,19 @@ justify-items: center;
     width: 160px;
 }
 
-.Kian-story footer p {
-  font-size: 1em;
+=======
+>>>>>>> 52c21cacde932187f45368b37bbcb0d82b9e7026
+.Kian-story main{
+  text-align: center;
+}
+
+.Kian-story video{
+  margin-top: 20px;
 }
 
 /* Page créateurs */
 
+<<<<<<< HEAD
 .kian-createurs main > header > section {
   display: block;
   text-align: center;
@@ -571,6 +586,8 @@ justify-items: center;
   text-align: left;
 } 
 
+=======
+>>>>>>> 52c21cacde932187f45368b37bbcb0d82b9e7026
 .kian-createurs main > section {
   display: flex;
   align-items: center;

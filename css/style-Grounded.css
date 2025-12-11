@@ -467,8 +467,12 @@ justify-items: center;
     width: 160px;
 }
 
-.Kian-story footer p {
-  font-size: 1em;
+.Kian-story main{
+  text-align: center;
+}
+
+.Kian-story video{
+  margin-top: 20px;
 }
 
 /* Page créateurs */

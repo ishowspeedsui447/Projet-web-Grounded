@@ -549,15 +549,11 @@ justify-items: center;
 
 /* Page créateurs */
 
-<<<<<<< HEAD
 .kian-createurs main>h2, .kian-createurs main>p{
   text-align: center;
 }
 
 .kian-createurs main>section {
-=======
-.kian-createurs main > section {
->>>>>>> 8a7bf6e0f16fe34c194e0dab32d0e0ac700e3b91
   display: flex;
   align-items: center;
   margin: 40px 0px;          

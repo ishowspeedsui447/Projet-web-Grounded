@@ -272,6 +272,10 @@ color: black;
     gap:10px;
 }
 
+.Charlemagne_part main>p, .Charlemagne_part main section>div>p{
+  margin: 0px 20px;
+}
+
 ::placeholder{
   font-family: "Oswald", sans-serif;
 }

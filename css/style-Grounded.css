@@ -548,7 +548,8 @@ justify-items: center;
 .kian-createurs main>section {
   display: flex;
   align-items: center;
-  margin: 40px 0px;          
+  flex-wrap: nowrap;
+  margin: 40px 0px;
 }
 
 .kian-createurs main section>*{

@@ -425,6 +425,9 @@ justify-items: center;
     border: rgb(255, 255, 175, 0.6) 2px solid;
     background-color: rgba(138, 25, 80, 0.841);
 }
+.Vincent-map main>p{
+  margin: 0px 10px;
+}
 
 /* Vincent accueil */
 

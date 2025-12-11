@@ -467,19 +467,6 @@ justify-items: center;
 
 /* Page créateurs */
 
-.kian-createurs main > header > section {
-  display: block;
-  text-align: center;
-  padding: 32px 16px;      
-}
-
-.kian-createurs main > header img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 16px;     
-}
-
 .kian-createurs main > section {
   display: flex;
   align-items: center;

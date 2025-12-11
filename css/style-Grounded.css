@@ -195,9 +195,7 @@ footer>p{
 /***********Abdel_remerciement*********/
 
 
-/***********Charlemagne*********/
-
-/* Début du code! */
+/***********Charlemagne_contact*********/
 
 .Charlemagne_part h2{
     text-align: center;
@@ -248,6 +246,18 @@ div textarea{
     text-align: center;
 }
 
+::placeholder{
+  font-family: "Oswald", sans-serif;
+}
+
+.Charlemagne_part label, legend{
+  color:rgba(212, 200, 154);
+  font-family: "Oswald", sans-serif;
+  padding: 5px;
+}
+
+/***********Charlemagne_outils*********/
+
 .charlemagne_outils{
    display: flex;
    border: 5px solid rgb(175, 70, 41);
@@ -270,16 +280,6 @@ color: black;
 
 .Charlemagne_part main>p, .Charlemagne_part main section>div>p{
   margin: 0px 20px;
-}
-
-::placeholder{
-  font-family: "Oswald", sans-serif;
-}
-
-.Charlemagne_part label, legend{
-  color:rgba(212, 200, 154);
-  font-family: "Oswald", sans-serif;
-  padding: 5px;
 }
 
 .Charlemagne_part section h4{
@@ -458,22 +458,6 @@ justify-items: center;
     font-size: 1.9em;
 }
 
-<<<<<<< HEAD
-.Kian-story header img:first-child {
-    width: 100%;
-    object-fit: cover;
-    filter: brightness(0.9);
-}
-
-.Kian-story header img:nth-child(2) {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    width: 160px;
-}
-
-=======
->>>>>>> 52c21cacde932187f45368b37bbcb0d82b9e7026
 .Kian-story main{
   text-align: center;
 }
@@ -484,27 +468,6 @@ justify-items: center;
 
 /* Page créateurs */
 
-<<<<<<< HEAD
-.kian-createurs main > header > section {
-  display: block;
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-.kian-createurs main > header img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-} 
-
-
-.kian-createurs main p {           
-  text-align: left;
-} 
-
-=======
->>>>>>> 52c21cacde932187f45368b37bbcb0d82b9e7026
 .kian-createurs main > section {
   display: flex;
   align-items: center;
